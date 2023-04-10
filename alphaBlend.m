@@ -10,6 +10,6 @@ function J = alphaBlend(IFG,IBG,a)
     J = IFG;
     for i = 1:M
         for j = 1:N
-           J(i,j) = a*IBG(i,j)+ (1-a)*IFG(i,j);
+           J(i,j) = a * IBG(i,j)+ (1-a) * IFG(i,j);
         end
     end
